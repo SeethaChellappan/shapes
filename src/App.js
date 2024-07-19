@@ -1,9 +1,13 @@
 import { React } from 'react';
 import './App.scss';
-
+import Circle from './components/Circle';
+import Square from './components/Square';
+import Rectangle from './components/Rectangle';
 const App = () =>
 	<div className="App">
-		Ready to start.
+		<Circle/>
+		<Square/>
+		<Rectangle/>
 	</div>;
 
 export default App;
