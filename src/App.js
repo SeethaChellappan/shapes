@@ -8,6 +8,9 @@ const App = () =>
 		<Circle/>
 		<Square/>
 		<Rectangle/>
+		<div className="circle"/>
+		<div className="square"/>
+		<div className="rectangle"/>
 	</div>;
 
 export default App;
